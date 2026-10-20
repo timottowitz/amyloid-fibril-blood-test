@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amyloid Fibril Blood Test: Detection of Insoluble Fibrinaloid Microclots (2026 Protocol)</title>
+  <meta name="description" content="Clinical reference guide to the Amyloid Fibril Blood Test. Learn why normal D-Dimer blood work misses insoluble cross-beta amyloid fibrils, and how 20x Thioflavin T fluorescence microscopy detects capillary hypoperfusion.">
+  <link rel="canonical" href="https://timottowitz.github.io/amyloid-fibril-blood-test/">
+  <meta property="og:title" content="Amyloid Fibril Blood Test: Detection of Insoluble Fibrinaloid Microclots (2026 Protocol)">
+  <meta property="og:description" content="Direct biophysical detection of anomalous amyloid fibrils, cross-beta steric zippers, and microvascular hypoperfusion in Long COVID and ME/CFS.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://timottowitz.github.io/amyloid-fibril-blood-test/">
+  <meta property="og:image" content="https://timottowitz.github.io/amyloid-fibril-blood-test/docs/figures/figure1_microvascular_capillary.jpg">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111827;
+      --card-border: #1f293d;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #0ea5e9;
+      --accent-glow: rgba(14, 165, 233, 0.25);
+      --green: #10b981;
+      --navy-cta: #0f172a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      padding-bottom: 80px;
+    }
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    header {
+      padding: 48px 0 32px 0;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 40px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(14, 165, 233, 0.12);
+      color: var(--accent);
+      border: 1px solid rgba(14, 165, 233, 0.3);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+    .lead {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+    .meta-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      font-size: 0.88rem;
+      margin-bottom: 24px;
+    }
+    .meta-item strong { display: block; color: var(--accent); margin-bottom: 2px; }
+    .cta-card {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      border: 2px solid #2563eb;
+      border-radius: 12px;
+      padding: 32px 28px;
+      margin: 40px 0;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+    }
+    .cta-card h2 {
+      font-size: 1.6rem;
+      color: #ffffff;
+      margin-bottom: 12px;
+    }
+    .cta-card p {
+      color: #cbd5e1;
+      max-width: 600px;
+      margin: 0 auto 20px auto;
+      font-size: 1.05rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-size: 1rem;
+      letter-spacing: 0.02em;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+    }
+    .btn:hover {
+      background: #1d4ed8;
+      transform: translateY(-1px);
+    }
+    .figure-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin: 36px 0;
+    }
+    .figure-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .figure-caption {
+      padding: 16px 20px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--card-border);
+    }
+    .figure-caption strong { color: #ffffff; }
+    h2.section-title {
+      font-size: 1.7rem;
+      color: #ffffff;
+      margin: 40px 0 16px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    p { margin-bottom: 18px; color: #d1d5db; }
+    ul, ol { margin: 0 0 20px 24px; color: #d1d5db; }
+    li { margin-bottom: 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 28px 0;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    th, td {
+      padding: 14px 16px;
+      text-align: left;
+      font-size: 0.92rem;
+      border-bottom: 1px solid var(--card-border);
+    }
+    th {
+      background: #1a2234;
+      color: #ffffff;
+      font-weight: 700;
+    }
+    tr:last-child td { border-bottom: none; }
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--card-border);
+      font-size: 0.85rem;
+      color: #6b7280;
+      text-align: center;
+    }
+    .footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Clinical Pathology Reference • 2026 Protocol</div>
+      <h1>Amyloid Fibril Blood Test: Biophysical Detection of Insoluble Fibrinaloid Microclots</h1>
+      <p class="lead">A forensic clinical hematology guide to cross-beta sheet steric zippers, microvascular capillary hypoperfusion, and why normal D-Dimer blood work misses anomalous amyloid fibrils.</p>
+      <div class="meta-box">
+        <div class="meta-item">
+          <strong>Pathology Focus</strong>
+          <span>Insoluble Amyloid Fibrils (Fibrinaloids)</span>
+        </div>
+        <div class="meta-item">
+          <strong>Optical Standard</strong>
+          <span>20x Plan-Apochromat Fluorescence</span>
+        </div>
+        <div class="meta-item">
+          <strong>Fluorophore Stain</strong>
+          <span>Thioflavin T (ThT, 450nm Excitation)</span>
+        </div>
+        <div class="meta-item">
+          <strong>Official Portal</strong>
+          <span><a href="https://amyloid-test.com/" style="color: var(--accent); text-decoration: none;">amyloid-test.com</a></span>
+        </div>
+      </div>
+    </header>
+
+    <div class="cta-card">
+      <div class="badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border-color: rgba(16, 185, 129, 0.3);">Official Requisition • No Travel Required</div>
+      <h2>Request Your At-Home Amyloid Fibril Screening Kit ($160 USD)</h2>
+      <p>Test dried capillary blood for anomalous amyloid fibrils via 20x darkfield fluorescence microscopy and 6K videography at our Mexico City partner laboratory.</p>
+      <a href="https://amyloid-test.com/" class="btn">ORDER AT-HOME AMYLOID TEST KIT ($160 USD) →</a>
+      <p style="font-size: 0.82rem; color: #94a3b8; margin-top: 12px; margin-bottom: 0;">Dispatched globally to your door • Ambient mail-in return • Observational research protocol</p>
+    </div>
+
+    <h2 class="section-title">1. The Diagnostic Paradox: Normal D-Dimer with Severe Capillary Hypoperfusion</h2>
+    <p>Millions of patients suffering from chronic post-viral fatigue, Long COVID, Post-Vaccination Syndrome, and ME/CFS face identical diagnostic invalidation: routine laboratory blood tests—including D-Dimer, Erythrocyte Sedimentation Rate (ESR), and high-sensitivity C-Reactive Protein (CRP)—return completely normal, despite severe physical exhaustion and brain fog.</p>
+    <p>Groundbreaking research published by Prof. Etheresia Pretorius and Prof. Douglas B. Kell resolves this paradox: persistent symptoms are driven by <strong>anomalous amyloid fibrils</strong> that are chemically and structurally distinct from normal blood clots.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Diagnostic Parameter</th>
+          <th>Normal Physiological Clot</th>
+          <th>Anomalous Amyloid Fibril (Fibrinaloid)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Secondary Protein Structure</strong></td>
+          <td>Flexible alpha-helices with cross-linked fibrin fibers</td>
+          <td><strong>Rigid cross-beta sheet amyloid fibrils</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Plasmin Degradation Susceptibility</strong></td>
+          <td>Readily cleaved and lysed by plasmin in hours</td>
+          <td><strong>Enzymatically resistant to plasmin degradation</strong></td>
+        </tr>
+        <tr>
+          <td><strong>D-Dimer Assay Response</strong></td>
+          <td>Significantly elevated during breakdown</td>
+          <td><strong>Normal / Negative (no soluble cleavage epitopes)</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Microvascular Consequence</strong></td>
+          <td>Temporary local hemostasis</td>
+          <td><strong>Terminal capillary occlusion across 8µm lumens</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Validated Optical Modality</strong></td>
+          <td>Standard light microscopy / ELISA</td>
+          <td><strong>20x Plan-Apochromat ThT Darkfield Fluorescence</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="figure-card">
+      <img src="docs/figures/figure1_microvascular_capillary.jpg" alt="Microvascular Capillary Occlusion by Amyloid Fibrils">
+      <div class="figure-caption">
+        <strong>Figure 1 • Terminal Capillary Occlusion by Cross-Beta Amyloid Fibrils:</strong> 3D high-resolution visualization inside an 8-micron capillary lumen. Rigid, misfolded amyloid fibrils physically entrap erythrocytes (red blood cells), obstructing microvascular perfusion and provoking severe tissue hypoxia despite normal circulating D-Dimer levels.
+      </div>
+    </div>
+
+    <h2 class="section-title">2. Why Thioflavin T (ThT) Fluorescence Staining Is Mandatory</h2>
+    <p>Because biochemical assays cannot quantify insoluble amyloid structures, direct biophysical visualization via specific amyloid fluorophores is required:</p>
+    <ul>
+      <li><strong>Quaternary Intercalation:</strong> Thioflavin T (ThT) is a benzothiazole fluorophore. In aqueous solution, its benzyl and benzothiazole rings rotate freely around a central C-C bond, quenching fluorescence. When ThT molecules intercalate into the continuous surface grooves of amyloid cross-beta sheets, their rotational mobility is locked.</li>
+      <li><strong>1,000-Fold Fluorescence Quantum Spike:</strong> Rotational arrest triggers an instantaneous surge in fluorescence emission at ~535 nm under 450–485 nm excitation.</li>
+      <li><strong>Platelet Entanglement:</strong> Dual-staining using magenta CD62P (P-selectin) markers demonstrates that amyloid fibrils trigger massive localized platelet hyperactivation.</li>
+    </ul>
+
+    <div class="figure-card">
+      <img src="docs/figures/figure2_fluorescence_microscopy.jpg" alt="Clinical Darkfield Fluorescence Microscopy of Amyloid Fibrils">
+      <div class="figure-caption">
+        <strong>Figure 2 • Clinical Darkfield Fluorescence Microscopy (20x Plan-Apochromat):</strong> Characteristic Stage 3 fibrinaloid microclots fluorescing intense emerald green under Thioflavin T excitation, entangled with hyperactivated platelets fluorescing magenta.
+      </div>
+    </div>
+
+    <h2 class="section-title">3. Clinical Staging Criteria for Amyloid Fibril Accumulation</h2>
+    <ol>
+      <li><strong>Stage 1 (Minimal):</strong> Dispersed micro-aggregates (&lt;5 µm), low background activation.</li>
+      <li><strong>Stage 2 (Moderate):</strong> Dense clustered amyloid fibrils (5–20 µm) with early platelet hyperactivation.</li>
+      <li><strong>Stage 3 (Significant):</strong> Widespread branching fibrinaloid sheets (20–50 µm) with extensive platelet clumping.</li>
+      <li><strong>Stage 4 (Severe):</strong> Massive confluent amyloid conglomerates (&gt;50 µm) causing extensive field occlusion.</li>
+    </ol>
+
+    <div class="figure-card">
+      <img src="docs/figures/figure3_thioflavin_lab_slide.jpg" alt="Laboratory Slide Preparation and Fluorescence Staining">
+      <div class="figure-caption">
+        <strong>Figure 3 • Clinical Laboratory Specimen Preparation & Examination:</strong> Capillary blood slide illuminated under 450nm blue excitation showing distinct Thioflavin T amyloid fluorescence adjacent to an inverted research fluorescence microscope, calibrated pipetting instrumentation, and ThT reagent stock prior to 6K videographic digital archiving.
+      </div>
+    </div>
+
+    <h2 class="section-title">4. The $160 Solution: At-Home Dried Capillary Blood Spot Screening</h2>
+    <p>Historically, accessing verified fluorescence microscopy required international travel costing upwards of $2,000 to $3,000. The direct-to-consumer screening protocol at <a href="https://amyloid-test.com/" style="color: var(--accent);">amyloid-test.com</a> provides an accessible, all-inclusive mail-in option for $160 USD total:</p>
+    <ul>
+      <li><strong>Automated Micro-Lancet Collection:</strong> A gentle finger-prick delivers a tiny capillary blood droplet onto chemically stabilized glass collection substrates.</li>
+      <li><strong>Ambient Courier Transit:</strong> Because cross-beta amyloid fibrils are thermodynamically stable once dried, the sample incurs zero spontaneous platelet degradation or hemolysis during ambient transit to our partner lab in Mexico City.</li>
+      <li><strong>20x Fluorescence Videography:</strong> Samples are hydrated, stained with calibrated ThT, and imaged across multiple optical fields using 20x plan-apochromat optics with complete 6K RAW video sweeps.</li>
+      <li><strong>Comprehensive Digital Report:</strong> Patients receive visual microscopic proof and quantitative morphological stage data to share directly with their physician.</li>
+    </ul>
+
+    <div class="cta-card">
+      <div class="badge" style="background: rgba(14, 165, 233, 0.15); color: #0ea5e9; border-color: rgba(14, 165, 233, 0.3);">Direct-to-Consumer Requisition</div>
+      <h2>Get Definitive Visual Proof of Insoluble Amyloid Fibrils</h2>
+      <p>Order your mail-in collection kit today. Complete screening package with prepaid international transit and 6K videographic report for $160 USD.</p>
+      <a href="https://amyloid-test.com/" class="btn">ORDER AT-HOME AMYLOID FIBRIL TEST KIT ($160 USD) →</a>
+    </div>
+
+    <h2 class="section-title">Primary Peer-Reviewed Academic Literature</h2>
+    <ol style="font-size: 0.92rem;">
+      <li><strong>Pretorius, E., et al. (2021).</strong> "Persistent clotting protein pathology in Long COVID/Post-Acute Sequelae of COVID-19 (PASC) is accompanied by increased levels of antiplasmin." <em>Cardiovascular Diabetology</em>, 20(1), 172.</li>
+      <li><strong>Kell, D. B., & Pretorius, E. (2022).</strong> "The potential role of ischaemia-reperfusion injury in chronic, inflammatory diseases." <em>Biochemical Journal</em>, 479(16), 1653-1708.</li>
+      <li><strong>Grobbelaar, L. M., et al. (2021).</strong> "SARS-CoV-2 spike protein S1 induces fibrin(ogen) resistant to fibrinolysis: Implications for microclot formation in COVID-19." <em>Bioscience Reports</em>, 41(8), BSR20210611.</li>
+      <li><strong>Turner, S., et al. (2023).</strong> "Long COVID: pathophysiological mechanisms and therapeutic opportunities." <em>Nature Reviews Microbiology</em>, 21(3), 139-158.</li>
+      <li><strong>Nyström, S., & Hammarström, P. (2022).</strong> "Amyloidogenesis of SARS-CoV-2 Spike Protein." <em>JACS</em>, 144(20), 8946-8950.</li>
+    </ol>
+
+    <div class="footer">
+      <p>© 2026 Observational Hematology Research Initiative • <a href="https://amyloid-test.com/">amyloid-test.com</a></p>
+      <p style="margin-top: 8px;">Non-diagnostic observational screening service for informational and educational purposes.</p>
+    </div>
+  </div>
+</body>
+</html>
